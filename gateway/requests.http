@@ -1,0 +1,10 @@
+GET http://localhost:8888/SERVICE-CLIENT/api/client
+
+###
+GET http://localhost:8888/SERVICE-CLIENT/api/client/1
+
+###
+GET http://localhost:8888/actuator/gateway/routes
+
+###
+GET http://localhost:8888/actuator/health

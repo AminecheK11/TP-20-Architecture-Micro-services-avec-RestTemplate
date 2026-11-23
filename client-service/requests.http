@@ -1,0 +1,10 @@
+GET http://localhost:8081/api/client
+
+###
+GET http://localhost:8081/api/client/1
+
+###
+POST http://localhost:8081/api/client
+Content-Type: application/json
+
+{"nom":"Client demonstration","age":25}
